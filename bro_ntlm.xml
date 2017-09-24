@@ -1,0 +1,11 @@
+<ruleset name="bro_ntlm" id="29021">
+  <pattern>bro_ntlm</pattern>
+  <rules>
+    <rule provider="tbc" class="29021" id="29021">
+      <patterns>
+        <pattern>@ESTRING::|@@ESTRING::|@@ESTRING:i0:|@@ESTRING:i1:|@@ESTRING:i2:|@@ESTRING:i3:|@@ESTRING:s0:|@@ESTRING:s1:|@@ESTRING:s2:|@@ESTRING:s3:|@@ESTRING:s4:@</pattern>
+      </patterns>
+
+    </rule>
+  </rules>
+</ruleset>

@@ -1,0 +1,11 @@
+<ruleset name="bro_smb_files" id="29020">
+  <pattern>bro_smb_files</pattern>
+  <rules>
+    <rule provider="tbc" class="29020" id="29020">
+      <patterns>
+        <pattern>@ESTRING::|@@ESTRING::|@@ESTRING:i0:|@@ESTRING:i1:|@@ESTRING:i2:|@@ESTRING:i3:|@@ESTRING::|@@ESTRING:s0:|@@ESTRING:s1:|@@ESTRING:s2:|@@ESTRING::|@@ESTRING::@</pattern>
+      </patterns>
+
+    </rule>
+  </rules>
+</ruleset>

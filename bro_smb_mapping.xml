@@ -1,0 +1,11 @@
+<ruleset name="bro_smb_mapping" id="29022">
+  <pattern>bro_smb_mapping</pattern>
+  <rules>
+    <rule provider="tbc" class="29022" id="29022">
+      <patterns>
+        <pattern>@ESTRING::|@@ESTRING::|@@ESTRING:i0:|@@ESTRING:i1:|@@ESTRING:i2:|@@ESTRING:i3:|@@ESTRING:s0:|@@ESTRING:s1:|@@ESTRING:s2:|@@ESTRING:s3:@</pattern>
+      </patterns>
+
+    </rule>
+  </rules>
+</ruleset>
